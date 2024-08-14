@@ -15,7 +15,7 @@ fun main(){
 //    note: val is immutable
 
 //    data types: the kinds of values that can be stored in variables.
-//    common data types are: Int, Double, String, Boolea
+//    common data types are: Int, Double, String, Boolean
 
 //    type conversion: changing one type of data into another.
 
