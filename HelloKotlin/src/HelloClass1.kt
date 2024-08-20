@@ -13,7 +13,7 @@ fun main(){
     val num2:Int?= readLine()?.toIntOrNull();
 
     if(num1 != null && num2 != null) {
-        printArmstrong(num1, num2);
+        printPalindrome(num1, num2);
     }
 }
 
@@ -86,7 +86,23 @@ fun noOfDigit(num:Int):Int{
 
 
 
+fun printPalindrome(num1:Int, num2:Int){
+    for(i in num1..num2){
+        var temp = i;
+        var rev = 0;
 
+        var n = i;
+        while (n != 0){
+            var rem = n % 10;
+            rev = rev * 10 + rem;
+            n /= 10;
+        }
+
+        if(temp == rev){
+            println(temp);
+        }
+    }
+}
 
 
 
