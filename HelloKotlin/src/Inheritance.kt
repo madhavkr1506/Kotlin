@@ -66,3 +66,5 @@ fun main(){
     obj.name("Madhav Kumar")
     obj.id(1001)
 }
+
+
